@@ -1,0 +1,19 @@
+模型: ResNet1202
+训练参数:
+  批量大小: 64
+  初始学习率: 0.1
+  训练轮数: 164/164
+
+训练结果:
+  最佳验证准确率: 0.936100 (轮次 154)
+  最佳验证损失: 0.233276
+  最佳训练准确率: 0.999440
+  最佳训练损失: 0.002767
+
+训练时间: 15小时 2分钟 40.03秒
+设备: cuda (NVIDIA GeForce RTX 4090)
+
+文件位置:
+  最佳模型: ./results/ResNet1202/ResNet1202_best.pth
+  CSV结果: ./results/ResNet1202/ResNet1202_results.csv
+  可视化结果: ./results/ResNet1202/plots

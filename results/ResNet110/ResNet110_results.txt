@@ -1,0 +1,19 @@
+模型: ResNet110
+训练参数:
+  批量大小: 128
+  初始学习率: 0.1
+  训练轮数: 164/164
+
+训练结果:
+  最佳验证准确率: 0.927100 (轮次 147)
+  最佳验证损失: 0.278934
+  最佳训练准确率: 0.999200
+  最佳训练损失: 0.004569
+
+训练时间: 1小时 13分钟 19.66秒
+设备: cuda (NVIDIA GeForce RTX 4090)
+
+文件位置:
+  最佳模型: ./results/ResNet110/ResNet110_best.pth
+  CSV结果: ./results/ResNet110/ResNet110_results.csv
+  可视化结果: ./results/ResNet110/plots

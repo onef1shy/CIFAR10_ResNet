@@ -1,0 +1,19 @@
+模型: ResNet34
+训练参数:
+  批量大小: 128
+  初始学习率: 0.1
+  训练轮数: 164/164
+
+训练结果:
+  最佳验证准确率: 0.948400 (轮次 144)
+  最佳验证损失: 0.223144
+  最佳训练准确率: 0.999900
+  最佳训练损失: 0.000846
+
+训练时间: 0小时 40分钟 21.99秒
+设备: cuda (NVIDIA GeForce RTX 4090)
+
+文件位置:
+  最佳模型: ./results/ResNet34/ResNet34_best.pth
+  CSV结果: ./results/ResNet34/ResNet34_results.csv
+  可视化结果: ./results/ResNet34/plots
