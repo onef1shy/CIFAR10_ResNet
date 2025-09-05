@@ -2,7 +2,7 @@
 
 本项目是对论文《Deep Residual Learning for Image Recognition》(He et al., 2016) 中提出的残差网络 (ResNet) 的复现，专注于 CIFAR-10 数据集上的图像分类任务。
 
-详细的实现分析与实验结果请查看我的博客文章：[深度残差网络(ResNet)代码实现详解：PyTorch复现CIFAR-10图像分类](https://onef1shy.github.io/2024/04/27/ResNet-Code/)
+详细的实现分析与实验结果请查看我的博客文章：[深度残差网络(ResNet)代码实现详解：PyTorch复现CIFAR-10图像分类](https://onef1shy.github.io/blog.html?post=ResNet-Code)
 
 ## 项目简介
 
@@ -112,7 +112,7 @@ chmod +x run.sh
 
 *注：原论文没有在CIFAR-10上测试标准ResNet(18/34/50)，这些是本项目的额外实验。
 
-更详细的性能分析和实验结果请参阅[博客文章](https://onef1shy.github.io/2024/04/27/ResNet-Code/)。
+更详细的性能分析和实验结果请参阅[博客文章](https://onef1shy.github.io/blog.html?post=ResNet-Code)。
 
 ## License
 
