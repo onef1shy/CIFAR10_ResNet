@@ -2,8 +2,6 @@
 
 本项目是对论文《Deep Residual Learning for Image Recognition》(He et al., 2016) 中提出的残差网络 (ResNet) 的复现，专注于 CIFAR-10 数据集上的图像分类任务。
 
-详细的实现分析与实验结果请查看我的博客文章：[深度残差网络(ResNet)代码实现详解：PyTorch复现CIFAR-10图像分类](https://onef1shy.github.io/blog.html?post=ResNet-Code)
-
 ## 项目简介
 
 残差网络 (ResNet) 是一种深度卷积神经网络架构，通过引入残差连接（跳跃连接）解决了深度神经网络训练中的梯度消失问题。本项目实现了多种深度的 ResNet 变体，包括标准 ResNet (ResNet18/34/50/101/152) 和专为 CIFAR-10 设计的变体 (ResNet20/32/44/56/110/1202)。
@@ -111,8 +109,6 @@ chmod +x run.sh
 | ResNet50   | 23.52M   | -          | 92.68%       |
 
 *注：原论文没有在CIFAR-10上测试标准ResNet(18/34/50)，这些是本项目的额外实验。
-
-更详细的性能分析和实验结果请参阅[博客文章](https://onef1shy.github.io/blog.html?post=ResNet-Code)。
 
 ## License
 
